@@ -3,4 +3,4 @@
 dev
 .env
 *.ipynb
-logs.log
+*.log
