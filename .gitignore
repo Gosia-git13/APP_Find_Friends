@@ -1,0 +1,6 @@
+.DS_Store
+.vscode
+dev
+.env
+*.ipynb
+logs.log
