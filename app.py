@@ -10,7 +10,7 @@ DATA = 'welcome_survey_simple_v2.csv'
 
 CLUSTER_NAMES_AND_DESCRIPTIONS = 'welcome_survey_cluster_names_and_descriptions_v2.json'
 
-@st.cache_data
+@st.cache_resource
 def get_model():
     return load_model(MODEL_NAME)
 
